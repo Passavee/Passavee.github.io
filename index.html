@@ -17,7 +17,7 @@
                 <h3>รหัสผ่าน</h3>
                 <input type="password" placeholder="Enter Password">
                 <br /><br />
-                <a href='result.html'><button>เข้าสู่ระบบ</button></a>
+                <button type="button" onclick="mya()">เข้าสู่ระบบ</button>
                 <input type="checkbox" checked="checked">Remember me     
                 <a href="#" onclick="myFunction()">  ลืมรหัสผ่าน?</a>
             </div>
@@ -26,6 +26,9 @@
     <script>
         function myFunction() {
             alert("จำให้ได้สิจ๊ะ");
+        }
+        function mya(){
+            window.open("result.html","_self");
         }
     </script>
 </body>
