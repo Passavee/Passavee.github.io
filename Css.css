@@ -1,0 +1,40 @@
+body{
+    background-color: #8CCBDD
+}
+
+a{
+    font-size: small;
+}
+
+button {
+    background-color: #E5825E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    background-color: #E8A28C;
+}
+
+h1{
+    color: #FFFEFE;
+}
+
+.content{
+    width: 75%;
+    padding: 2%;
+    background-color: #e4f5ff;
+}
+
+.redtext{
+    font-size: xx-large;
+    color: red;
+}
+
+.name{
+    font-size: x-large;
+}
