@@ -6,6 +6,10 @@ a{
     font-size: small;
 }
 
+a:visited{
+    color: blue;
+}    
+
 button {
     background-color: #E5825E;
     color: white;
