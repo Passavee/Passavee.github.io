@@ -1,5 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/space-and-astronomy');
+
 body{
-    background-color: #8CCBDD
+    background-color: #2f5476;
 }
 
 a{
@@ -21,6 +23,7 @@ button:hover{
 }
 
 h1{
+    font-family: 'Space and Astronomy', sans-serif;                             
     color: #FFFEFE;
 }
 
@@ -37,4 +40,14 @@ h1{
 
 .name{
     font-size: x-large;
+}
+
+.secret{
+    color: #2f5470;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    vertical-align: middle;
 }
