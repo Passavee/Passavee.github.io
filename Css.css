@@ -1,4 +1,7 @@
-@import url('http://fonts.cdnfonts.com/css/space-and-astronomy');
+@font-face {
+    font-family: SpaceandAstronomy;
+    src: url(space_and_astronomy.ttf);
+}
 
 body{
     background-color: #2f5476;
@@ -23,7 +26,7 @@ button:hover{
 }
 
 h1{
-    font-family: 'Space and Astronomy', sans-serif;                             
+    font-family: 'SpaceandAstronomy', sans-serif;                             
     color: #FFFEFE;
 }
 
