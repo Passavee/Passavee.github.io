@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="login.css">
+    <link href="http://fonts.cdnfonts.com/css/space-and-astronomy" rel="stylesheet">
+    <title>เข้าสู่ระบบ</title>
+</head>
+
+<body>
+    <center>
+        <h1><img class="logo" src="LogoPak.png" />Astronomy and space science test</h1>
+    </center>
+    <form>
+        <center>
+            <div class="centercontainer">
+                <h3>ชื่อ-นามสกุล</h3>
+                <input type="text" placeholder="Ex. อาชาไนย ใจร้อนรัก">
+                <h3>รหัสผ่าน</h3>
+                <input type="password" placeholder="Enter Password">
+                <br /><br />
+                <button type="button" onclick="mya()">เข้าสู่ระบบ</button>
+                <input type="checkbox" checked="checked">Remember me     
+                <a href="#" onclick="myFunction()">  ลืมรหัสผ่าน?</a>
+            </div>
+        </center>
+    </form>
+    <script>
+        function myFunction() {
+            alert("จำให้ได้สิจ๊ะ");
+        }
+        function mya(){
+            window.open("result.html","_self");
+        }
+    </script>
+</body>
+
+</html>
