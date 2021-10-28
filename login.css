@@ -1,17 +1,15 @@
+@import url('http://fonts.cdnfonts.com/css/space-and-astronomy');
+
 body{
-    background-color: #8CCBDD
+    background-color: #2f5476;
 }
 
 a{
     font-size: small;
 }
 
-a:visited{
-    color: blue;
-}    
-
 button {
-    background-color: #E5825E;
+    background-color: #6494ac;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -21,10 +19,11 @@ button {
 }
 
 button:hover{
-    background-color: #E8A28C;
+    background-color: #5a7297;
 }
 
 h1{
+    font-family: 'Space and Astronomy', sans-serif;
     color: #FFFEFE;
 }
 
@@ -37,4 +36,10 @@ input{
     width: 75%;
     padding: 2%;
     background-color: #e4f5ff;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    vertical-align: middle;
 }
